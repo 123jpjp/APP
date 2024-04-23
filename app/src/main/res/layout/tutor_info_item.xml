@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
+                android:gravity="bottom|center_horizontal"
                 android:text="@string/level"
                 tools:ignore="NestedWeights" />
 
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
+                android:gravity="top|center_horizontal"
                 android:text="@string/category" />
         </LinearLayout>
 
