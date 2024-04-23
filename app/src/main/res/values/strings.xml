@@ -3,4 +3,13 @@
     <string name="tab_layout">main tab layout</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">To search</string>
+    <string name="major_tab_title">智能科学与工程学院研究生专业目录</string>
+    <string name="search_button">press to search</string>
+    <string name="tutor">导师：</string>
+    <string name="first_examination_subjects">初试科目</string>
+    <string name="major_name">专业名称</string>
+    <string name="major_direction">专业方向</string>
+    <string name="second_examination_subjects">复试科目</string>
+    <string name="star">To star sth.</string>
 </resources>
