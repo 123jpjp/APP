@@ -12,4 +12,12 @@
     <string name="major_direction">专业方向</string>
     <string name="second_examination_subjects">复试科目</string>
     <string name="star">To star sth.</string>
+    <string name="subject">subject</string>
+    <string name="tutor_name">导师姓名</string>
+    <string name="tutor_category">导师类别</string>
+    <string name="research_direction">研究方向</string>
+    <string name="operation">操作</string>
+    <string name="level">level</string>
+    <string name="category">category</string>
+    <string name="direction">研究方向</string>
 </resources>

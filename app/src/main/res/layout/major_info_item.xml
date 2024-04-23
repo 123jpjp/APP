@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="400dp">
+    android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="360dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="3"
             android:orientation="horizontal">
 
@@ -33,7 +33,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/major_name" />
+                    android:text="@string/major_name"
+                    android:textSize="24sp"/>
 
                 <TextView
                     android:id="@+id/first_examination_subjects"
@@ -41,11 +42,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/first_examination_subjects" />
+                    android:text="@string/first_examination_subjects"
+                    android:textSize="24sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="8"
                     android:orientation="vertical">
 
@@ -54,28 +56,36 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
 
                     <TextView
                         android:id="@+id/subject2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
 
                     <TextView
                         android:id="@+id/subject3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
 
                     <TextView
                         android:id="@+id/subject4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -93,7 +103,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/major_direction" />
+                    android:text="@string/major_direction"
+                    android:textSize="24sp"/>
 
                 <TextView
                     android:id="@+id/second_examination_subjects"
@@ -101,11 +112,12 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/second_examination_subjects" />
+                    android:text="@string/second_examination_subjects"
+                    android:textSize="24sp"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_weight="8"
                     android:orientation="vertical">
 
@@ -114,28 +126,36 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
 
                     <TextView
                         android:id="@+id/subject6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
 
                     <TextView
                         android:id="@+id/subject7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
 
                     <TextView
                         android:id="@+id/subject8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="" />
+                        android:gravity="center_vertical"
+                        android:textSize="20sp"
+                        android:text="@string/subject" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -150,7 +170,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="horizontal">
 
@@ -162,6 +182,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:gravity="center"
+                android:textSize="18sp"
                 android:text="@string/tutor" />
 
             <TextView
@@ -172,6 +193,7 @@
                 android:layout_marginEnd="5dp"
                 android:layout_marginBottom="5dp"
                 android:gravity="center_vertical"
+                android:textSize="15sp"
                 android:text="" />
 
         </LinearLayout>
