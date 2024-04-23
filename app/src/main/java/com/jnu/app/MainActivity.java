@@ -32,24 +32,6 @@ public class MainActivity extends AppCompatActivity {
         FragmentAdapter fragmentAdapter = new FragmentAdapter(getSupportFragmentManager(), getLifecycle());
         viewPager.setAdapter(fragmentAdapter);
 
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @SuppressLint("DefaultLocale")
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-
-            }
-
-            @SuppressLint("DefaultLocale")
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-
-            }
-        });
         // 将TabLayout和ViewPager2进行关联
         new TabLayoutMediator(tabLayout, viewPager,
                 (tab, position) -> tab.setText(tabHeaderStrings[position])
