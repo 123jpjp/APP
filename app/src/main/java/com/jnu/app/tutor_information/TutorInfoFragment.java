@@ -40,7 +40,7 @@ public class TutorInfoFragment extends Fragment {
 
         recyclerViewTutorAdapter = new RecyclerViewTutorAdapter(tutors);
         recyclerView.setAdapter(recyclerViewTutorAdapter);
-        // aaa
+        // a
         return rootView;
     }
 }
