@@ -36,14 +36,11 @@ public class TutorInfoFragment extends Fragment {
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview_tutor);
         recyclerView.setLayoutManager(new LinearLayoutManager(requireActivity()));
 
-        recyclerViewTutorAdapter = new RecyclerViewTutorAdapter(tutors);
-        recyclerView.setAdapter(recyclerViewTutorAdapter);
-
         tutors.add(new Tutor("黄国全", "博导", "学术", "管理科学与工程"));
 
         recyclerViewTutorAdapter = new RecyclerViewTutorAdapter(tutors);
         recyclerView.setAdapter(recyclerViewTutorAdapter);
-
+        // aaa
         return rootView;
     }
 }
